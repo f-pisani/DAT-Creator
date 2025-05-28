@@ -1,0 +1,82 @@
+# Build directories
+build/
+debug/
+release/
+bin/
+
+# Qt generated files
+*.pro.user
+*.pro.user.*
+ui_*.h
+ui_*.hpp
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.moc
+*.qm
+*.qmlc
+*.jsc
+.qmake.stash
+.qmake.cache
+Makefile.*
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.lai
+*.la
+
+# Debug files
+*.pdb
+*.ilk
+*.idb
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+.*.tmp
+.*.swp
+
+# Archives (but keep asset.dat as it's a sample file)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Application specific
+DAT
+DAT.app/
